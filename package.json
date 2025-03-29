@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build:analyze": "ANALYZE=true next build",
+    "start": "next start"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.2.4",
     "next": "15.2.3",
     "react": "^19.0.0",
     "react-datepicker": "^8.2.1",
