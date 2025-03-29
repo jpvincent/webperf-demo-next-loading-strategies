@@ -1,6 +1,6 @@
 Dans le cadre de la formation Webperf - focus JS, spécialisé React, ceci est une démo des différentes stratégies de chargement de fichiers JS implémentées par Next d'une part, et du chargement dynamique de composant d'autre part.
 
-Créé à partir de [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), m
+Créé à partir de [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 
 ## Commandes utiles
@@ -17,3 +17,5 @@ Pour le chargement dynamique de composant : regarder le poids des JS/CSS chargé
 - avant react-datepicker,
 - après son ajout,
 - puis après l'utilisation de `import()` + `dynamic()` + une condition d'affichage
+
+Le poids se voit dans l'onglet "network" et grâce à la commande `npm run build:analyze`
